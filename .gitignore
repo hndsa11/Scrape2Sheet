@@ -1,0 +1,18 @@
+# استبعاد ملفات Google Credentials
+credentials.json
+
+# استبعاد مجلدات Cache
+__pycache__/
+*.pyc
+
+# استبعاد بيئة العمل الافتراضية (لو عندك)
+venv/
+.env
+
+# استبعاد ملفات إعدادات المحرر
+.vscode/
+.idea/
+
+# استبعاد أي ملفات مؤقتة
+*.log
+*.bak
